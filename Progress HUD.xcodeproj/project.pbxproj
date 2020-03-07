@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97B0342EC4006C16F21C499A /* Pods_Progress_HUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D551680447BBBA3C1C890F9 /* Pods_Progress_HUD.framework */; };
+		FFD24E322413FD1400200472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD24E312413FD1400200472 /* AppDelegate.swift */; };
+		FFD24E342413FD1400200472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD24E332413FD1400200472 /* SceneDelegate.swift */; };
+		FFD24E362413FD1400200472 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD24E352413FD1400200472 /* SimpleViewController.swift */; };
+		FFD24E392413FD1400200472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD24E372413FD1400200472 /* Main.storyboard */; };
+		FFD24E3B2413FD1600200472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD24E3A2413FD1600200472 /* Assets.xcassets */; };
+		FFD24E3E2413FD1600200472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD24E3C2413FD1600200472 /* LaunchScreen.storyboard */; };
+		FFD24E4624140E3200200472 /* SimpleWithTransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD24E4524140E3200200472 /* SimpleWithTransformViewController.swift */; };
+		FFD24E4824140F7000200472 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD24E4724140F7000200472 /* ProgressHUD.swift */; };
+		FFD24E4A2414194900200472 /* DownloadHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD24E492414194900200472 /* DownloadHUDViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D551680447BBBA3C1C890F9 /* Pods_Progress_HUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Progress_HUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC6FFC0DF8633EAC1826387 /* Pods-Progress HUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Progress HUD.debug.xcconfig"; path = "Target Support Files/Pods-Progress HUD/Pods-Progress HUD.debug.xcconfig"; sourceTree = "<group>"; };
+		A394B4CA7D22B4D6E9F9A619 /* Pods-Progress HUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Progress HUD.release.xcconfig"; path = "Target Support Files/Pods-Progress HUD/Pods-Progress HUD.release.xcconfig"; sourceTree = "<group>"; };
+		FFD24E2E2413FD1400200472 /* Progress HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progress HUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD24E312413FD1400200472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFD24E332413FD1400200472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFD24E352413FD1400200472 /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		FFD24E382413FD1400200472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFD24E3A2413FD1600200472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFD24E3D2413FD1600200472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFD24E3F2413FD1600200472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD24E4524140E3200200472 /* SimpleWithTransformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWithTransformViewController.swift; sourceTree = "<group>"; };
+		FFD24E4724140F7000200472 /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		FFD24E492414194900200472 /* DownloadHUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHUDViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD24E2B2413FD1400200472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B0342EC4006C16F21C499A /* Pods_Progress_HUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		384E57FDD9C43826A7123A63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EC6FFC0DF8633EAC1826387 /* Pods-Progress HUD.debug.xcconfig */,
+				A394B4CA7D22B4D6E9F9A619 /* Pods-Progress HUD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5C01FA47B7AE11EAC287017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D551680447BBBA3C1C890F9 /* Pods_Progress_HUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFD24E252413FD1400200472 = {
+			isa = PBXGroup;
+			children = (
+				FFD24E302413FD1400200472 /* Progress HUD */,
+				FFD24E2F2413FD1400200472 /* Products */,
+				384E57FDD9C43826A7123A63 /* Pods */,
+				B5C01FA47B7AE11EAC287017 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD24E2F2413FD1400200472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD24E2E2413FD1400200472 /* Progress HUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD24E302413FD1400200472 /* Progress HUD */ = {
+			isa = PBXGroup;
+			children = (
+				FFD24E312413FD1400200472 /* AppDelegate.swift */,
+				FFD24E332413FD1400200472 /* SceneDelegate.swift */,
+				FFD24E4724140F7000200472 /* ProgressHUD.swift */,
+				FFD24E352413FD1400200472 /* SimpleViewController.swift */,
+				FFD24E4524140E3200200472 /* SimpleWithTransformViewController.swift */,
+				FFD24E492414194900200472 /* DownloadHUDViewController.swift */,
+				FFD24E372413FD1400200472 /* Main.storyboard */,
+				FFD24E3A2413FD1600200472 /* Assets.xcassets */,
+				FFD24E3C2413FD1600200472 /* LaunchScreen.storyboard */,
+				FFD24E3F2413FD1600200472 /* Info.plist */,
+			);
+			path = "Progress HUD";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD24E2D2413FD1400200472 /* Progress HUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD24E422413FD1600200472 /* Build configuration list for PBXNativeTarget "Progress HUD" */;
+			buildPhases = (
+				2F2670038F525115CF7E3FE4 /* [CP] Check Pods Manifest.lock */,
+				FFD24E2A2413FD1400200472 /* Sources */,
+				FFD24E2B2413FD1400200472 /* Frameworks */,
+				FFD24E2C2413FD1400200472 /* Resources */,
+				768D3881BE8264103BACAE20 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Progress HUD";
+			productName = "Progress HUD";
+			productReference = FFD24E2E2413FD1400200472 /* Progress HUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD24E262413FD1400200472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fahim Rahman";
+				TargetAttributes = {
+					FFD24E2D2413FD1400200472 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FFD24E292413FD1400200472 /* Build configuration list for PBXProject "Progress HUD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD24E252413FD1400200472;
+			productRefGroup = FFD24E2F2413FD1400200472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD24E2D2413FD1400200472 /* Progress HUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD24E2C2413FD1400200472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD24E3E2413FD1600200472 /* LaunchScreen.storyboard in Resources */,
+				FFD24E3B2413FD1600200472 /* Assets.xcassets in Resources */,
+				FFD24E392413FD1400200472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2670038F525115CF7E3FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Progress HUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		768D3881BE8264103BACAE20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Progress HUD/Pods-Progress HUD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Progress HUD/Pods-Progress HUD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Progress HUD/Pods-Progress HUD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD24E2A2413FD1400200472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD24E362413FD1400200472 /* SimpleViewController.swift in Sources */,
+				FFD24E322413FD1400200472 /* AppDelegate.swift in Sources */,
+				FFD24E4A2414194900200472 /* DownloadHUDViewController.swift in Sources */,
+				FFD24E342413FD1400200472 /* SceneDelegate.swift in Sources */,
+				FFD24E4824140F7000200472 /* ProgressHUD.swift in Sources */,
+				FFD24E4624140E3200200472 /* SimpleWithTransformViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFD24E372413FD1400200472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD24E382413FD1400200472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFD24E3C2413FD1600200472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD24E3D2413FD1600200472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFD24E402413FD1600200472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFD24E412413FD1600200472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD24E432413FD1600200472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC6FFC0DF8633EAC1826387 /* Pods-Progress HUD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JWUSF25X2;
+				INFOPLIST_FILE = "Progress HUD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Progress-HUD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFD24E442413FD1600200472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A394B4CA7D22B4D6E9F9A619 /* Pods-Progress HUD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JWUSF25X2;
+				INFOPLIST_FILE = "Progress HUD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Progress-HUD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD24E292413FD1400200472 /* Build configuration list for PBXProject "Progress HUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD24E402413FD1600200472 /* Debug */,
+				FFD24E412413FD1600200472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD24E422413FD1600200472 /* Build configuration list for PBXNativeTarget "Progress HUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD24E432413FD1600200472 /* Debug */,
+				FFD24E442413FD1600200472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD24E262413FD1400200472 /* Project object */;
+}
